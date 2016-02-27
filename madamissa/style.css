@@ -81,6 +81,8 @@ font-family:"Open Sans",lithos, sans-serif;
 	height:15px;
 	width:250px;
 	border-radius:0px;
+        line-height: initial;
+        color: #ccc;
 }
 #Page
 {
@@ -119,14 +121,13 @@ font-family:"Open Sans",lithos, sans-serif;
 	float:left;
 	height:25px;
 	font-weight:bolder;
-	margin-bottom: 10px;
+            line-height: initial;
 }
 .inscrip
 {
-	width:99%;
-	height:auto;
-	background-color: rgba(0,0,0,0.7);
-       border-radius: 5px;
+    width:99%;
+    height:auto;
+    border-radius: 5px;
 }
 #Footer
 {
@@ -149,8 +150,14 @@ color:white;
 border-left: 1px solid white;
 margin: 0 10px 0 0;
 padding: 0 0 0 10px;
-font-weight: normal;
+font-weight: 600;
 }
+#Divafooter:hover
+{
+color:#000;
+padding: 0 0 0 10px;
+}
+
 #h3
 {
 margin-left:auto;

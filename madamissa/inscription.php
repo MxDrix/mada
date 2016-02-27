@@ -42,7 +42,7 @@ if(!empty($_POST))
 			</center>
                             <div id="Page">
                             <div class="inscrip">
-				<form action="inscription.php" method="POST" style="color:white;height:90%;line-height:10px;padding:20px 150px 0px 100px;width:100%;">
+				<form action="inscription.php" method="POST" style="color:white;height:90%;line-height:35px;padding:20px 150px 0px 100px;width:100%;">
 						<label class="label-inscrip" id="nom">Nom :</label><input class="input-inscrip"placeholder="Votre nom" style="border-radius:0px;height:25px;border: 2px solid #ccc;"id="nom" type="text" name="nom" />	<br />
 						<label class="label-inscrip"id="prenom">Prénom :</label><input class="input-inscrip"placeholder="Votre prenom" style="border-radius:0px;height:25px;border: 2px solid #ccc;" type="text" name="prenom"id="prenom" />	<br />
 						<label class="label-inscrip"id="add">Adresse :</label><input class="input-inscrip"placeholder="Votre adresse" style="border-radius:0px;height:25px;border: 2px solid #ccc;" type="text" name="add"id="add" />	<br />
