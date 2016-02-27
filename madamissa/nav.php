@@ -8,17 +8,15 @@ include_once("FoncConnexion.class.php");
   <title>MadaM'Iza</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap-responsive.min.css">         
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">         
         <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
 	<link rel="icon" type="image/png" href="images/NavBar/Logo/logo.png" />
-       
 </head>
 <body  onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
 <nav class="navbar navbar-default navbar-static-top">
@@ -67,11 +65,11 @@ include_once("FoncConnexion.class.php");
             </li><?php
                 if(isset($_SESSION['Auth']['email_uti']))
                 {?>                                           
-                    <li><a class="a_New_Nav" href="utilisateur.php"><span id="spanNav"> <?php   echo $_SESSION['Auth']['prenom_uti'];?></span></a></li><?php
+                    <li><a class="a_New_Nav" href="utilisateur.php"><?php   echo $_SESSION['Auth']['prenom_uti'];?></a></li><?php
                 }
                 else
                 {?>
-                    <li><a class="a_New_Nav" href="identifier.php"><span id="spanNav">Connexion</span><i class="fa fa-sign-in" style="padding-left:5px;"></i></a></li><?php
+                    <li><a class="a_New_Nav" href="identifier.php">Connexion<i class="fa fa-sign-in" style="padding-left:5px;"></i></a></li><?php
                 }?>
           </ul>
         </div><!--/.nav-collapse -->
