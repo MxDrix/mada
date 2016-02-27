@@ -1,5 +1,5 @@
 <td style="width:5%;height:600px;padding-left:5px;margin-left:5px;padding-top:0px;">
-	<div style="width:100%;height:100%;background-color: rgba(0, 0, 0, 0.2);padding-top:0px;float:top;">
+	<div style="width:100%;height:100%;padding-top:0px;float:top;">
 
 		<div id="btnFb">
 			<iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/madamizapage?fref=ts;layout=standard&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;color=white$amp;height=80"
