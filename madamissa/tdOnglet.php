@@ -1,6 +1,6 @@
 <td style="width:5%;height:600px;margin-right:5px;margin-right:5px;padding-right:5px;">
-			<div style="width:200px;width:100%;float:top;height:100%;">
-					<div id="id_du_div" style="margin-top:10px;visibility: visible;position: absolute;">
+			<div style="width:200px;float:top;height:100%;">
+					<div id="id_du_div" style="width:200px;margin-top:10px;visibility: visible;position: absolute;">
 					<ul style="margin:2px;padding-left:0px;">
 							<li id="liOnglet"><a href="association.php" id="aOnglet">Association</a></li>	
 							<li id="liOnglet"><a href="cooperative-agricole.php" id="aOnglet">Coopérative agricole</a></li>						
