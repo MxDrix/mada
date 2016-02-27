@@ -32,7 +32,7 @@ include_once("FoncConnexion.class.php");
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav" style="max-width: 100%;">
-            <li><a class="a_New_Nav" href="https://www.facebook.com/madamizapage?fref=ts&__mref=message_bubble" target="_blank"><img src="images/NavBar/icon-fb.png" style= "height:30px; width:auto;"><span id="spanNav">Visitez notre page </span> </a></li>
+            <li><a class="a_New_Nav" href="https://www.facebook.com/madamizapage/" target="_blank"><img src="images/NavBar/icon-fb.png" style= "height:30px; width:auto;"><span id="spanNav">Visitez notre page </span> </a></li>
             <li><a class="a_New_Nav" href=""><img src="images/navbar/icon-contact.png" style= "height:30px; width:auto;"><span id="spanNav">Restez informés  </span></a></li>
             <li><a class="a_New_Nav" href="../Forum/index.php" target="_blank"><img src="images/navbar/icon-forum.png"  style= "height:30px; width:auto;"><span id="spanNav" >Notre forum  </span></a></li>
             <li style="display:none;"  class="dropdown">
