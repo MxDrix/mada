@@ -28,13 +28,7 @@ include_once("FoncConnexion.class.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="accueil.php" style="
-    background: -webkit-radial-gradient(rgb(166,95,13),#07A84D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    font-size: 25px;
-">MadaM'Isa</a>
+            <a class="navbar-brand" href="accueil.php"><img src="images/NavBar/Logo/logo-titre-madamiza.png"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav" style="max-width: 100%;">
