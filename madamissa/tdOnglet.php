@@ -11,8 +11,6 @@
 							<li id="liOnglet"><a href="solidarite.php" id="aOnglet">Solidarité</a></li>
 							<li id="liOnglet"><a href="soutien.php" id="aOnglet">Soutien</a></li>
 							<li id="liOnglet"><a href="partenaire.php" id="aOnglet">Partenaires</a></li>
-							<li id="liOnglet"><a href="forum.php" id="aOnglet">Forum</a></li>
-							<li id="liOnglet"><a href="Contact.php" id="aOnglet">Contact</a></li>
 						</ul>
 					</div>
 			</div>		
