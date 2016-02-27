@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html{
    overflow: auto;
-    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.1)), url(images/FondA.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.1)), url(images/fond-madamiza.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover; 
@@ -16,7 +16,7 @@ html::-webkit-scrollbar-corner {
     border-left: 1px rgba(205, 205, 205, 1) solid;
 }
 html::-webkit-scrollbar-thumb {
-            background: -webkit-radial-gradient(#07A84D,rgb(166,95,13));
+        background: -webkit-radial-gradient(rgb(166,95,13),#07A84D);
 }
 html::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
@@ -81,8 +81,8 @@ font-family:"Open Sans",lithos, sans-serif;
 	height:15px;
 	width:250px;
 	border-radius:0px;
-        line-height: initial;
-        color: #ccc;
+    line-height: initial;
+    color: #ccc;
 }
 #Page
 {
@@ -121,19 +121,21 @@ font-family:"Open Sans",lithos, sans-serif;
 	float:left;
 	height:25px;
 	font-weight:bolder;
-            line-height: initial;
+    line-height: initial;
 }
+
 .inscrip
 {
-    width:99%;
-    height:auto;
-    border-radius: 5px;
+	width:99%;
+	height:auto;
+	background-color: rgba(0,0,0,0.7);
+       border-radius: 5px;
 }
 #Footer
 {
 width:90%;
 min-width:1200px;
-margin:40px auto 0px;
+margin:55px auto 0px;
 color: white;
 padding:5px;
 background-image: url("images/footer.png");
@@ -150,14 +152,8 @@ color:white;
 border-left: 1px solid white;
 margin: 0 10px 0 0;
 padding: 0 0 0 10px;
-font-weight: 600;
+font-weight: normal;
 }
-#Divafooter:hover
-{
-color:#000;
-padding: 0 0 0 10px;
-}
-
 #h3
 {
 margin-left:auto;
@@ -249,10 +245,6 @@ font-weight: normal;
 #spanNav
 {
 margin-left: 9px;
-}
-#Multimedia
-{
-background-color: rgb(166,95,13);
 }
 
 #NewArticle

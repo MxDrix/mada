@@ -16,7 +16,7 @@ include_once("FoncConnexion.class.php");
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
-	<link rel="icon" type="image/png" href="images/NavBar/Logo/logo.png" />
+	<link rel="icon" type="image/png" href="images/navbar/logo-madamiza.png" />
 </head>
 <body  onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
 <nav class="navbar navbar-default navbar-static-top">
@@ -28,17 +28,17 @@ include_once("FoncConnexion.class.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="accueil.php"><img src="images/NavBar/Logo/logo-titre-madamiza.png"/></a>
+            <a class="navbar-brand" href="accueil.php"><img src="images/navbar/logo-titre-madamiza.png"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav" style="max-width: 100%;">
             <li><a class="a_New_Nav" href="https://www.facebook.com/madamizapage?fref=ts&__mref=message_bubble" target="_blank"><img src="images/NavBar/icon-fb.png" style= "height:30px; width:auto;"><span id="spanNav">Visitez notre page </span> </a></li>
-            <li><a class="a_New_Nav" href=""><img src="images/NavBar/icon_newletter_original_2.png" style= "height:30px; width:auto;"><span id="spanNav">Restez informés  </span></a></li>
-            <li><a class="a_New_Nav" href="../Forum/index.php" target="_blank"><img src="images/NavBar/icon_forum_original.png"  style= "height:30px; width:auto;"><span id="spanNav" >Notre forum  </span></a></li>
+            <li><a class="a_New_Nav" href=""><img src="images/navbar/icon-contact.png" style= "height:30px; width:auto;"><span id="spanNav">Restez informés  </span></a></li>
+            <li><a class="a_New_Nav" href="../Forum/index.php" target="_blank"><img src="images/navbar/icon-forum.png"  style= "height:30px; width:auto;"><span id="spanNav" >Notre forum  </span></a></li>
             <li style="display:none;"  class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu" >
-                <li><a href="#">Actiong</a></li>
+                <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
