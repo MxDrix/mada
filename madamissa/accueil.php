@@ -5,7 +5,7 @@
 		<?php include"tdOnglet.php"?>
 		<td id="tdcontenu">
 				<center>
-					<H3 id="h3">Accuffeil</H3>
+					<H3 id="h3">Accueil</H3>
 				</center>
 				<div id="Page">
 					<p id="pG"><B>Madagascar</B>, un des pays les plus pauvres du monde... </p>
