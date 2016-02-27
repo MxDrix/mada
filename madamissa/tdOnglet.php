@@ -1,6 +1,5 @@
 <td style="width:5%;height:600px;margin-right:5px;margin-right:5px;padding-right:5px;">
-			<div style="width:100%;float:top;height:100%;">
-				<button id="buttonLi" type="button" onclick="toggle_div(this,'id_du_div');"><b>Onglets</b><span class="caret"style="float:right;margin-top:7px;margin-right:20px;"></span></button>
+			<div style="width:200px;width:100%;float:top;height:100%;">
 					<div id="id_du_div" style="margin-top:10px;visibility: visible;position: absolute;">
 					<ul style="margin:2px;padding-left:0px;">
 							<li id="liOnglet"><a href="association.php" id="aOnglet">Association</a></li>	
