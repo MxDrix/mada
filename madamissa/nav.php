@@ -52,7 +52,7 @@ include_once("FoncConnexion.class.php");
             <li style="height:50px;">	
 		<form class="navbar-form navbar-right" role="search"style="border-color:transparent;padding: 5px 0;">
                     <div class="form-group" style="display: inline-flex;margin-right:5px;width:350px;padding: 0px 15px;">
-			<input type="text" class="form-control" placeholder="Recherche" style="float: left;height:30px;  background: url(images/NavBar/loupe.png) no-repeat right #fff;;" >
+			<input type="text" class="form-control" placeholder="Recherche" style="float: left;height:30px;  background: url(images/navbar/loupe.png) no-repeat right #fff;;" >
 			<button type="submit" class="btn btn-default" style="font-size: 11px;margin-left: 5px;">Rechercher</button>
                     </div>				
 		</form>

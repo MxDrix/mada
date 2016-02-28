@@ -9,7 +9,7 @@
 			</center>
 			<div id="Page">
 					<p id="pG"> 
-					<center><img src="images/contact.png" style="width:600px;"/></center>
+					<center><img src="images/page-contact/contact.png" style="width:600px;"/></center>
 					</p><br/><br/><br/>
 					<p id="pG">Adresse : 49, rue de la Cavée - 95100 Argenteuil
 					</p>
