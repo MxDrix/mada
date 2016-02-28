@@ -80,4 +80,5 @@ document.oncontextmenu = new Function("return false");
                         document.onclick = ftrue;
                 }
         //-->
+
         </script>

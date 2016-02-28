@@ -17,7 +17,7 @@
 				  <input type="file" name="monfichier" style="color:white;width:45%;float:left;margin:30px 0 0 5%;"/>
 				  <input type="submit" style="float:right;color:black;margin: 30px 40% 0 0;"/></p>
 				</form>
-					<a style='text-decoration: none;color: black;' href='utilisateur.php'><label class='btnRetour'>Retour</label></a>
+					<a style='text-decoration: none;color: black;' href='Compte'><label class='btnRetour'>Retour</label></a>
 			</div>
 		</td>
 		<?php include"tdMultimedia.php"?>

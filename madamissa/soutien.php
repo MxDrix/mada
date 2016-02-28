@@ -15,12 +15,17 @@
 					<p id="pG">Vous pouvez également soutenir nos projets en choisissant un don en ligne via Paypal (le don est alors amputé de leurs frais).
 					</p>
 					
-					<a id="aSoutien"href="Soutien/bulletinsoutien.doc" download="bulletinsoutien.doc" ><p id="soutienDoc">Bulletin <img src="Soutien/doc.png" style="width:auto;height: 40px;margin-left: 24px;"></p></a>
-					<a id="aSoutien" href="Soutien/bulletinsoutien.pdf" download="bulletinsoutien.pdf" ><p id="soutienPdf">Bulletin <img src="Soutien/pdf.png" style="width:auto;height: 40px;margin-left: 24px;"></p></a>
+					<a  id="aSoutien" href="Soutien/bulletin-doc" download=onclick="myFunction('/STAGE/rapportRichardChandon.pdf')""bulletinsoutien.doc" ><p id="soutienDoc">Bulletin<i class="fa fa-file-text" id="fa_doc"></i></p></a>
+					<a onclick="myFunction('Soutien/bulletin-pdf')" id="aSoutien"><p id="soutienPdf">Bulletin<i class="fa fa-file-pdf-o" id="fa_pdf"></i></p></a>
 					
 			</div>
 		</td>
 		<?php include"tdMultimedia.php"?>
 	</table>
 </div>
-<?php include "footer.php"?>
+<?php include "footer.php"?>"
+. "<script>
+function myFunction(url) {
+    window.open(url, "_blank","toolbar=yes, scrollbars=yes, resizable=0, top=100, left=500, width=800, height=600");
+}
+</script>

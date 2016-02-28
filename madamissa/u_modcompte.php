@@ -21,7 +21,7 @@
                                                               <label id='email'>Mot de passe</label><input value='$ligne->mdp '  type='password' id='mdp' name = 'mdp'/><br /><br/>    
                                                               <input type = 'submit' id='btnadmin' name = 'modifier2' title='toute modification entraine la deconnexion du compte' value = 'modifier'style='margin-top:10px;'>
                                                       </form>
-                                                      <a style='text-decoration: none;color: black;' href='moduti.php'><label class='btnRetour'>Retour</label></a>";
+                                                      <a style='text-decoration: none;color: black;' href='Modifier-utilisateur'><label class='btnRetour'>Retour</label></a>";
                                     }
                                     if(isset($_POST['modifier2']) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['mdp']) )
                                     {

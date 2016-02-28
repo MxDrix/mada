@@ -1,0 +1,36 @@
+Options -Indexes
+Options -Multiviews
+Options +FollowSymlinks
+SetEnv REGISTER_GLOBALS 0
+SetEnv PHP_VER 5_4
+DirectoryIndex index.php index.html index.phtml /erreurs/403.php
+
+RewriteEngine on 
+
+RewriteCond %{HTTP_HOST} ^http://localhost/madamissa/Accueil
+RewriteRule (.*) http://localhost/madamissa/$1 [R=301,L]
+RewriteRule ^Accueil$ index.php [L]
+RewriteRule ^Association association.php [L]
+RewriteRule ^Cooperative-agricole$ cooperative-agricole.php [L]
+RewriteRule ^Environnement$ environnement.php [L]
+RewriteRule ^Education$ education.php [L]
+RewriteRule ^Sante$ sante.php [L]
+RewriteRule ^Echange-internationnaux$ echange-internationnaux.php [L]
+RewriteRule ^Solidarite$ solidarite.php [L]
+RewriteRule ^Soutien-$ soutien.php [L]
+RewriteRule ^Partenaire$ partenaire.php [L]
+RewriteRule ^Contact$ Contact.php [L]
+RewriteRule ^Compte$ utilisateur.php [L]
+RewriteRule ^Connexion$ identifier.php [L]
+RewriteRule ^Forum$ forum.php [L]
+RewriteRule ^Liste-des-utilisateurs$ listeuti.php [L]
+RewriteRule ^Supprimer-utilisateur$ suputi.php [L]
+RewriteRule ^Modifier-utilisateur$ moduti.php [L]
+RewriteRule ^Nouvel-onglet-image$ News_Onglet_image.php [L]
+RewriteRule ^Supprimer-News$ supnews.php [L]
+RewriteRule ^Ajout-photo$ ajoutphoto.php [L]
+RewriteRule ^Deconnexion$ logout.php [L]
+RewriteRule ^Modifier-votre-compte$ u_modcompte.php [L]
+RewriteRule ^Ajouter-article$ ajoutart.php [L]
+RewriteRule ^Soutien/bulletin-pdf$ Soutien/bulletinsoutien.pdf [L]
+RewriteRule ^Soutien/bulletin-doc$ Soutien/bulletinsoutien.doc [L]

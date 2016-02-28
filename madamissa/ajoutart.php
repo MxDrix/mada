@@ -19,13 +19,13 @@
 					}
 				?>
 				<h3>Ajouter un article</h3>
-				<form action = 'ajoutart.php' method = 'POST'>
+				<form action = 'Ajouter-article' method = 'POST'>
 					Nom de l'article :<input type = "text" name = "nom_art"><br><br>
 					Contenu de l'article :<textarea name = "contenu" rows = "15" cols = "100"></textarea><br><br>
 					<input type = "submit" name = "ajouter" value = "ajouter">
 					
 				</form>
-				<a href='utilisateur.php'>Retour</a>
+				<a href='Compte'>Retour</a>
 			</div>
 		</td>
 		<?php include"tdMultimedia.php"?>

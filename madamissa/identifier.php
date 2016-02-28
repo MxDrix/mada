@@ -26,7 +26,7 @@ echo"<td id='tdcontenu' style='background-color: rgba(0, 0, 0, 0.2);'><br/>
 	 	<script type="text/javascript">
 			function timedRefresh(timeoutPeriod) {
 			console.log(timeoutPeriod);
-			setTimeout("window.location=\"./utilisateur.php\";",timeoutPeriod);
+			setTimeout("window.location=\"./Compte\";",timeoutPeriod);
 			}timedRefresh(100);
 		</script>
 	 <?php
@@ -45,7 +45,7 @@ $result= utilisateurFactory::logUtilisateur($log,$pass);
 					 <div class='block-acc-login'>
 						<h2 class='title-h2' style='font-size: 20px;'>Vous avez déjà un compte</h2>
 							<p>Si vous avez un compte chez nous, identifiez-vous.</p>
-								<form method='POST' action='identifier.php'>
+								<form method='POST' action='Connexion'>
 									<div class='acc-login-fields' style='width:210px;position:absolute;'>
 									  <label name='mail'>Votre e-mail</label>
 									  <input type='text' name='log' value='' id='email' class='input-text required-entry' title='Adresse email' placeholder='adresse@email.com' style='box-sizing: border-box;height:30px;'>
@@ -78,7 +78,7 @@ else
 					<div class="block-acc-login">
 						<h2 class="title-h2" style="font-size: 20px;">Vous avez déjà un compte</h2>
 							<p>Si vous avez un compte chez nous, identifiez-vous.</p>
-								<form method="POST" action="identifier.php">
+								<form method="POST" action="Connexion">
 									<div class="acc-login-fields" style="width:210px;position:absolute;">
 									  <label name="mail">Votre e-mail</label>
 									  <input type="text" name="log" value="" id="email" class="input-text required-entry" title="Adresse email" placeholder="adresse@email.com" style="box-sizing: border-box;height:30px;">
@@ -96,7 +96,7 @@ else
 					<div class="block-acc-register">
 						<h2 class="title-h2" style="font-size: 20px;">Vous n'avez pas de compte</h2>
 							<p>Votre premiere visite ? Inscrivez-vous ! </p>
-									<a href="inscription.php">
+									<a href="Inscription">
 										<button type="submit" title="Créer un compte" class="button" style=" background-color:#A65F0D;color:white; width: 153px;height:35px;text-align:left;padding-left:10px; font-size: 12px;float:right; margin-top: -3px;">CONTINUER 
 											<span class="glyphicon glyphicon glyphicon-chevron-right" aria-hidden="true" style="float:right;width:auto;height:10px;"></span>
 										</button>

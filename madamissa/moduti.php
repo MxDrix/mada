@@ -30,7 +30,7 @@
 									  <input type = 'submit' id='btnadmin' name = 'modifier2' value = 'modifier'style='margin-top:10px;'>
 									  <input type = 'hidden' name = 'num_uti' value = '$num_uti'/>
 								  </form>
-								  <a style='text-decoration: none;color: black;' href='moduti.php'><label class='btnRetour'>Retour</label></a>";
+								  <a style='text-decoration: none;color: black;' href='Modifier-utilisateur'><label class='btnRetour'>Retour</label></a>";
 						}
 					}
 					else
@@ -49,7 +49,7 @@
 					<br><br>
 					<input id='btnadmin' type = "submit" name = "modifier" value = "modifier">
 				</form>
-				<label class='btnRetour'><a style='text-decoration: none;color: black;'href='utilisateur.php'>Retour</a></label>
+				<label class='btnRetour'><a style='text-decoration: none;color: black;'href='Compte'>Retour</a></label>
 			<?php }
 			}
 			else

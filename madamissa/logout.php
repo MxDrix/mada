@@ -22,6 +22,6 @@ include"tdMultimedia.php"?>
 <script type="text/javascript">
 function timedRefresh(timeoutPeriod) {
 	console.log(timeoutPeriod);
-    setTimeout("window.location=\"./accueil.php\";",timeoutPeriod);
+    setTimeout("window.location=\"./Accueil\";",timeoutPeriod);
     }timedRefresh(500);
 </script>

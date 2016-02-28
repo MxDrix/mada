@@ -42,7 +42,7 @@ include "nav.php"?>
 					}
 					echo "</table>";
 				?>
-				<a style='text-decoration: none;color: black;' href='utilisateur.php'><label class='btnRetour'>Retour</label></a>
+				<a style='text-decoration: none;color: black;' href='Compte'><label class='btnRetour'>Retour</label></a>
 				<?php 
 			}
 			else

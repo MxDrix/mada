@@ -26,7 +26,7 @@ $_SESSION['NewsImage'] = "";
 		<script type="text/javascript">
 			function timedRefresh(timeoutPeriod) {
 			console.log(timeoutPeriod);
-			setTimeout("window.location=\"./utilisateur.php\";",timeoutPeriod);
+			setTimeout("window.location=\"./Compte\";",timeoutPeriod);
 			}timedRefresh(100);
 		</script>
 <?php	
